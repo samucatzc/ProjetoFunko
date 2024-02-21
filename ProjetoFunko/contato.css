@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner-2 {
+  width: 100%;
+  height: 110vh;
+  background: url("img/imagens-atualizadas/contatoheader.jpg") no-repeat center /
+    cover;
+  background-size: 100%;
+  background-position: 25%;
+}
+
+.logo-2 img {
+  margin-top: 40px;
+  margin-left: auto;
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  gap: 60px;
+  margin-left: 60px;
+  margin-bottom: 200px;
+}
+
+.menu ul {
+  margin-top: 38px;
+  display: flex;
+  list-style: none;
+  font-size: 17 px;
+}
+
+.menu ul a {
+  position: relative;
+  color: #fff;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: large;
+}
+.menu ul a:hover::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 2px solid #fe7467;
+}
+
+.logo img {
+  margin-top: 39px;
+  width: 200px;
+}
+
+.robin img {
+  width: 600px;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+.title-contact h1 {
+  color: dimgray;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.title-contact h1::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30px;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 110px;
+  border-bottom: 4px solid #fe7467;
+}
+
+.texto p {
+  width: 50%;
+  font-size: large;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  color: #7b7979;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+}
+main {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+/* COMEÇO MAIN*/
+
+.container-contact {
+  background-color: #f5efef;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.title-body {
+  width: 100%;
+}
+
+.campo {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.observacao textarea {
+  width: 100%;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.formulario {
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  position: relative;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.formulario .campo {
+  font-size: 1.2em;
+  color: #7b7979;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.formulario .btn-enviar {
+  width: 100%;
+  background: linear-gradient(#fe7467, #fc3836);
+  color: #fff;
+  border: 1px #dee5ed solid;
+  border-radius: 20px;
+  padding-block: 0.5em;
+  font-size: 1.5em;
+}
+
+.formulario .btn-enviar:hover {
+  background-color: #969ad8;
+  color: #fff;
+}
+.formulario textarea {
+  resize: none;
+  height: 89%;
+  font-size: 1.2em;
+  color: #7b7979;
+  border: 1px #dee5ed solid;
+  border-radius: 8px;
+}
+
+.observacao {
+  width: 100%;
+}

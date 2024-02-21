@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner-2 {
+  width: 100%;
+  height: 101svh;
+  background: url("img/imagens-atualizadas/captainmarvelheader.jpg") no-repeat
+    center / cover;
+  background-size: 104%;
+  background-position: bottom;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.menu ul {
+  margin-top: 39px;
+  display: flex;
+  list-style: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.menu ul a {
+  position: relative;
+  color: #fff;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+.menu ul a:hover::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 2px solid #fe7467;
+}
+
+.logo-2 img {
+  display: flex;
+  width: 64%;
+  margin-top: 40px;
+  margin-left: 75px;
+  height: auto;
+  align-items: center;
+}
+
+.capitan img {
+  width: 600px;
+  margin-left: 370px;
+  margin-top: 440px;
+}
+
+.conteiner-white {
+  background-color: #fff;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 110px;
+}
+
+.titulo {
+  display: flex;
+  color: dimgrey;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.titulo::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  margin-top: 12px;
+  border-bottom: 4px solid #fe7467;
+}
+
+.item {
+  width: 27%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item p {
+  font-size: large;
+  font-weight: 500;
+}
+.item h4 {
+  font-size: larger;
+}
+
+.btn {
+  color: #fff;
+  background: linear-gradient(#fe7467, #fc3836);
+  width: 130px;
+  height: 37px;
+  border-radius: 19px;
+  border: none;
+  font-size: medium;
+  font-weight: 900;
+}
